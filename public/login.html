@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <!-- Lien vers le fichier styles.css -->
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <!-- Formulaire de connexion -->
+    <div class="login-form">
+      <h2>Connexion</h2>
+      <form id="loginForm">
+        <div>
+          <label for="username">Nom d'utilisateur</label>
+          <input type="text" id="username" name="username" placeholder="Entrez votre nom d'utilisateur" required>
+        </div>
+        <div>
+          <label for="password">Mot de passe</label>
+          <input type="password" id="password" name="password" placeholder="Entrez votre mot de passe" required>
+        </div>
+        <div class="form-actions">
+          <a href="#" class="forgot-password">Mot de passe oublié ?</a>
+        </div>
+        <button type="submit">Se connecter</button>
+      </form>
+      <p class="create-account">
+        Pas de compte ? <a href="#">Créer un compte</a>
+      </p>
+    </div>
+    
+    <!-- Image d'illustration des appareils -->
+    <div class="illustration"></div>
+  </div>
+
+  <!-- Lien vers le fichier JavaScript généré par TypeScript -->
+  <script src="login.js"></script>
+</body>
+</html>
